@@ -10,12 +10,8 @@ function Book() {
         <span>
           Bem vindo, <strong>Alexandre</strong>!
         </span>
-        <Link className="button" to="/book/novo">
-          Novo Livro
-        </Link>
-        <button type="button">
-          <FiPower size={18} color="#251FC5" />
-        </button>
+        <Link className="button" to="/book/novo"> Novo Livro </Link>
+        <button type="button"> <FiPower size={18} color="#251FC5" />  </button>
       </header>
       <h1>Registrar Livros</h1>
       <ul>
@@ -28,13 +24,8 @@ function Book() {
           <p>R$ 150,00</p>
           <strong>Data de Lançamento:</strong>
           <p>28/11/2021</p>
-          <button type="button">
-              <FiEdit size={20} color="#251fc5" />
-          </button>
-
-          <button type="button">
-              <FiTrash2 size={20} color="#251fc5" />
-          </button>
+          <button type="button"> <FiEdit size={20} color="#251fc5" /></button>
+          <button type="button"> <FiTrash2 size={20} color="#251fc5" /></button>
         </li>
 
         <li>
@@ -46,13 +37,8 @@ function Book() {
           <p>R$ 150,00</p>
           <strong>Data de Lançamento:</strong>
           <p>28/11/2021</p>
-          <button type="button">
-              <FiEdit size={20} color="#251fc5" />
-          </button>
-
-          <button type="button">
-              <FiTrash2 size={20} color="#251fc5" />
-          </button>
+          <button type="button"><FiEdit size={20} color="#251fc5" /></button>
+          <button type="button"><FiTrash2 size={20} color="#251fc5" /></button>
         </li>
       </ul>
     </div>
