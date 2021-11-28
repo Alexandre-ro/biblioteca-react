@@ -10,7 +10,7 @@ function Book() {
         <span>
           Bem vindo, <strong>Alexandre</strong>!
         </span>
-        <Link className="button" to="book/new">
+        <Link className="button" to="/book/novo">
           Novo Livro
         </Link>
         <button type="button">
