@@ -10,7 +10,7 @@ function Router() {
       <Switch>
         <Route path="/" exact component={Login} />
         <Route path="/book" exact component={Book} />
-        <Route path="/book/novo" exact component={NewBook} />
+        <Route path="/book/novo/:bookId" component={NewBook} />
       </Switch>
     </BrowserRouter>
   );
